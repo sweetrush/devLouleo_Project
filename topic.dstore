@@ -1,0 +1,285 @@
+
+  <!--####################################################################-->
+  <!--################POSTID:20224140629481251856608 ###################-->
+  <!--####################################################################-->
+  <div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">TFD :  Better internet for all in the region to access online content </h4>
+  <p><p>Given the power of the internet we really need to strengthen our resources on building those areas for our countries. I think have a good internet gives access to more information resources in the region and allow for new ways of deploying them on to the country level. would love to see what others are doing and how they are working on building those areas.&nbsp;</p></p>
+  <hr>
+  <p class="mb-0">
+  <strong>Tags: <i class="fa fa-tags" aria-hidden="true"></i></strong>
+    <span class="badge bg-light text-dark"><i class="fa fa-tag" aria-hidden="true"></i> Technology and Communications</span>
+    <span class="badge bg-light text-dark"><i class="fa fa-tag" aria-hidden="true"></i> Community Member Rep (Pacific)</span>
+    <span class="badge bg-light text-dark"><i class="fa fa-tag" aria-hidden="true"></i> Sione Sam</span>
+    <span class="badge bg-light text-dark"><i class="fa fa-tag" aria-hidden="true"></i> Marshall Islands</span>
+    <span class="badge bg-light text-dark"><i class="fa fa-tag" aria-hidden="true"></i> 20224140629481251856608</span>
+    <span class="badge bg-light text-dark"><i class="fa fa-tag" aria-hidden="true"></i> 2022-04-14 | 06:29:48 pm</span>
+    </p>
+    <hr>
+    
+    <p class="mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+        <form action="./ppAddMessageTopicDiscussion.php" method="POST">
+    <div class="form-group">
+    <input name="Vi001" type="hidden" class="form-control" value="20224140629481251856608">
+    </div>
+    <div class="form-group">
+    <input name="Vi002" type="hidden" class="form-control" value="Technology and Communications">
+    </div>
+    <div class="form-group">
+    <input name="Vi003" type="hidden" class="form-control" value=" Better internet for all in the region to access online content ">
+    </div>
+    <button type="submit" class="btn btn-warning btn-sm"><i class="fa fa-commenting-o" aria-hidden="true"></i>Voice</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">    
+    <div class="form-group">
+    <input name="SCi001" type="hidden" class="form-control" value="20224140629481251856608">
+    </div>
+    <button type="submit" class="btn btn-success btn-sm"><i class="fa fa-thumbs-up" aria-hidden="true"></i>Support</button>
+    </form>
+        </div>
+
+<!--
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="SCi002" type="hidden" class="form-control" value="20224140629481251856608">
+    </div>
+    <button type="submit" class="btn btn-danger btn-sm">Not Support</button>
+    </form>
+        </div>
+-->
+        <div class="col-2">
+         <form action="ppViewMessagesForTopic.php" method="POST">
+    <div class="form-group">
+    <input name="MVi001" type="hidden" class="form-control" value="20224140629481251856608">
+    </div>
+
+    <div class="form-group">
+    <input name="MVi002" type="hidden" class="form-control" value=" Better internet for all in the region to access online content ">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-bars" aria-hidden="true"></i>  Contributions</button>
+      </form>
+        </div>
+   
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224140629481251856608">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-facebook-official" aria-hidden="true"></i>Share</button>
+    </form>
+        </div> 
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224140629481251856608">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-twitter-square" aria-hidden="true"></i>Share </button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224140629481251856608">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-pinterest" aria-hidden="true"></i>Share </button>
+    </form>
+        </div>  
+      </div>
+      </div>
+    </p>
+
+<!--##############################-->
+<!--##############################-->
+<!--##############################-->
+<!--##############################-->
+
+<p class="mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+        <form action="" method="POST">
+    <div class="form-group">
+    <input name="vVi001" type="hidden" class="form-control" value="">
+    </div>
+    <div class="form-group">
+    <input name="vVi002" type="hidden" class="form-control" value="">
+    </div>
+    <div class="form-group">
+    <input name="vVi003" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-warning btn-sm"><i class="fa fa-universal-access" aria-hidden="true"></i> VAS</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">    
+    <div class="form-group">
+    <input name="vSCi001" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-success btn-sm"><i class="fa fa-spinner" aria-hidden="true"></i> TMJ</button>
+    </form>
+        </div>
+
+
+      </div>
+      </div>
+    </p>
+
+
+    </div>
+  <!--####################################################################-->
+  <!--################ END POST                        ###################-->
+  <!--####################################################################-->
+    
+  <!--####################################################################-->
+  <!--################POSTID:2022414063318332598159 ###################-->
+  <!--####################################################################-->
+  <div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">TFD : COVID has created nation problems and we need regional Support </h4>
+  <p><p>Yes COVID has truely changes the way we do things and we are forces to move with the changes&nbsp; we really need to come together as a region in support all these changes and we need our leaders and our people to work together. would love to hear from others.&nbsp;</p></p>
+  <hr>
+  <p class="mb-0">
+  <strong>Tags: <i class="fa fa-tags" aria-hidden="true"></i></strong>
+    <span class="badge bg-light text-dark"><i class="fa fa-tag" aria-hidden="true"></i> Health</span>
+    <span class="badge bg-light text-dark"><i class="fa fa-tag" aria-hidden="true"></i> Regional Citizen (Pacific)</span>
+    <span class="badge bg-light text-dark"><i class="fa fa-tag" aria-hidden="true"></i> James Mat</span>
+    <span class="badge bg-light text-dark"><i class="fa fa-tag" aria-hidden="true"></i> Solomon Islands</span>
+    <span class="badge bg-light text-dark"><i class="fa fa-tag" aria-hidden="true"></i> 2022414063318332598159</span>
+    <span class="badge bg-light text-dark"><i class="fa fa-tag" aria-hidden="true"></i> 2022-04-14 | 06:33:18 pm</span>
+    </p>
+    <hr>
+    
+    <p class="mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+        <form action="./ppAddMessageTopicDiscussion.php" method="POST">
+    <div class="form-group">
+    <input name="Vi001" type="hidden" class="form-control" value="2022414063318332598159">
+    </div>
+    <div class="form-group">
+    <input name="Vi002" type="hidden" class="form-control" value="Health">
+    </div>
+    <div class="form-group">
+    <input name="Vi003" type="hidden" class="form-control" value="COVID has created nation problems and we need regional Support ">
+    </div>
+    <button type="submit" class="btn btn-warning btn-sm"><i class="fa fa-commenting-o" aria-hidden="true"></i>Voice</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">    
+    <div class="form-group">
+    <input name="SCi001" type="hidden" class="form-control" value="2022414063318332598159">
+    </div>
+    <button type="submit" class="btn btn-success btn-sm"><i class="fa fa-thumbs-up" aria-hidden="true"></i>Support</button>
+    </form>
+        </div>
+
+<!--
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="SCi002" type="hidden" class="form-control" value="2022414063318332598159">
+    </div>
+    <button type="submit" class="btn btn-danger btn-sm">Not Support</button>
+    </form>
+        </div>
+-->
+        <div class="col-2">
+         <form action="ppViewMessagesForTopic.php" method="POST">
+    <div class="form-group">
+    <input name="MVi001" type="hidden" class="form-control" value="2022414063318332598159">
+    </div>
+
+    <div class="form-group">
+    <input name="MVi002" type="hidden" class="form-control" value="COVID has created nation problems and we need regional Support ">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-bars" aria-hidden="true"></i>  Contributions</button>
+      </form>
+        </div>
+   
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="2022414063318332598159">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-facebook-official" aria-hidden="true"></i>Share</button>
+    </form>
+        </div> 
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="2022414063318332598159">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-twitter-square" aria-hidden="true"></i>Share </button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="2022414063318332598159">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-pinterest" aria-hidden="true"></i>Share </button>
+    </form>
+        </div>  
+      </div>
+      </div>
+    </p>
+
+<!--##############################-->
+<!--##############################-->
+<!--##############################-->
+<!--##############################-->
+
+<p class="mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+        <form action="" method="POST">
+    <div class="form-group">
+    <input name="vVi001" type="hidden" class="form-control" value="">
+    </div>
+    <div class="form-group">
+    <input name="vVi002" type="hidden" class="form-control" value="">
+    </div>
+    <div class="form-group">
+    <input name="vVi003" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-warning btn-sm"><i class="fa fa-universal-access" aria-hidden="true"></i> VAS</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">    
+    <div class="form-group">
+    <input name="vSCi001" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-success btn-sm"><i class="fa fa-spinner" aria-hidden="true"></i> TMJ</button>
+    </form>
+        </div>
+
+
+      </div>
+      </div>
+    </p>
+
+
+    </div>
+  <!--####################################################################-->
+  <!--################ END POST                        ###################-->
+  <!--####################################################################-->
+    

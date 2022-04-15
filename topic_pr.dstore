@@ -1,0 +1,839 @@
+
+  <!--####################################################################-->
+  <!--################POSTID:20224120959002054213328 ###################-->
+  <!--####################################################################-->
+  <div class="alert alert-primary" role="alert">
+  <h4 class="alert-heading">TFD : Lets Talk about Louleo</h4>
+  <p>AS the Government i think this is a great tool for the region and believe that this will be useful for all the region to collaborate on.</p>
+  <hr>
+  <p class="mb-0">
+    <span class="badge bg-light text-dark"> Technology and Communications</span>
+    <span class="badge bg-light text-dark"> Government Official</span>
+    <span class="badge bg-light text-dark"> GoS</span>
+    <span class="badge bg-light text-dark"> Samoa</span>
+    <span class="badge bg-light text-dark"> 20224120959002054213328</span>
+    <span class="badge bg-light text-dark"> 2022-04-12 | 09:59:00 am</span>
+    </p>
+    <hr>
+    
+    <p class="mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+        <form action="./pr_ppAddMessageTopicDiscussion.php" method="POST">
+    <div class="form-group">
+    <input name="Vi001" type="hidden" class="form-control" value="20224120959002054213328">
+    </div>
+    <div class="form-group">
+    <input name="Vi002" type="hidden" class="form-control" value="Technology and Communications">
+    </div>
+    <div class="form-group">
+    <input name="Vi003" type="hidden" class="form-control" value="Lets Talk about Louleo">
+    </div>
+    <button type="submit" class="btn btn-warning btn-sm">Voice</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">    
+    <div class="form-group">
+    <input name="SCi001" type="hidden" class="form-control" value="20224120959002054213328">
+    </div>
+    <button type="submit" class="btn btn-success btn-sm">Support</button>
+    </form>
+        </div>
+
+<!--
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="SCi002" type="hidden" class="form-control" value="20224120959002054213328">
+    </div>
+    <button type="submit" class="btn btn-danger btn-sm">Not Support</button>
+    </form>
+        </div>
+-->
+        <div class="col-2">
+         <form action="ppViewMessagesForTopic.php" method="POST">
+    <div class="form-group">
+    <input name="MVi001" type="hidden" class="form-control" value="20224120959002054213328">
+    </div>
+
+    <div class="form-group">
+    <input name="MVi002" type="hidden" class="form-control" value="Lets Talk about Louleo">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"> Contributions</button>
+      </form>
+        </div>
+   
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120959002054213328">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share FB</button>
+    </form>
+        </div> 
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120959002054213328">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share TW</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120959002054213328">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share PT</button>
+    </form>
+        </div>  
+
+
+      </div>
+      </div>
+    </p>
+    </div>
+  <!--####################################################################-->
+  <!--################ END POST                        ###################-->
+  <!--####################################################################-->
+    
+  <!--####################################################################-->
+  <!--################POSTID:20224120147021774246262 ###################-->
+  <!--####################################################################-->
+  <div class="alert alert-primary" role="alert">
+  <h4 class="alert-heading">TFD : </h4>
+  <p></p>
+  <hr>
+  <p class="mb-0">
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> </span>
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> 20224120147021774246262</span>
+    <span class="badge bg-light text-dark"> 2022-04-12 | 01:47:02 pm</span>
+    </p>
+    <hr>
+    
+    <p class="mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+        <form action="./pr_ppAddMessageTopicDiscussion.php" method="POST">
+    <div class="form-group">
+    <input name="Vi001" type="hidden" class="form-control" value="20224120147021774246262">
+    </div>
+    <div class="form-group">
+    <input name="Vi002" type="hidden" class="form-control" value="Choose...">
+    </div>
+    <div class="form-group">
+    <input name="Vi003" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-warning btn-sm">Voice</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">    
+    <div class="form-group">
+    <input name="SCi001" type="hidden" class="form-control" value="20224120147021774246262">
+    </div>
+    <button type="submit" class="btn btn-success btn-sm">Support</button>
+    </form>
+        </div>
+
+<!--
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="SCi002" type="hidden" class="form-control" value="20224120147021774246262">
+    </div>
+    <button type="submit" class="btn btn-danger btn-sm">Not Support</button>
+    </form>
+        </div>
+-->
+        <div class="col-2">
+         <form action="ppViewMessagesForTopic.php" method="POST">
+    <div class="form-group">
+    <input name="MVi001" type="hidden" class="form-control" value="20224120147021774246262">
+    </div>
+
+    <div class="form-group">
+    <input name="MVi002" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"> Contributions</button>
+      </form>
+        </div>
+   
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120147021774246262">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share FB</button>
+    </form>
+        </div> 
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120147021774246262">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share TW</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120147021774246262">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share PT</button>
+    </form>
+        </div>  
+
+
+      </div>
+      </div>
+    </p>
+    </div>
+  <!--####################################################################-->
+  <!--################ END POST                        ###################-->
+  <!--####################################################################-->
+    
+  <!--####################################################################-->
+  <!--################POSTID:2022412014938726058226 ###################-->
+  <!--####################################################################-->
+  <div class="alert alert-primary" role="alert">
+  <h4 class="alert-heading">TFD : </h4>
+  <p></p>
+  <hr>
+  <p class="mb-0">
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> </span>
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> 2022412014938726058226</span>
+    <span class="badge bg-light text-dark"> 2022-04-12 | 01:49:38 pm</span>
+    </p>
+    <hr>
+    
+    <p class="mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+        <form action="./pr_ppAddMessageTopicDiscussion.php" method="POST">
+    <div class="form-group">
+    <input name="Vi001" type="hidden" class="form-control" value="2022412014938726058226">
+    </div>
+    <div class="form-group">
+    <input name="Vi002" type="hidden" class="form-control" value="Choose...">
+    </div>
+    <div class="form-group">
+    <input name="Vi003" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-warning btn-sm">Voice</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">    
+    <div class="form-group">
+    <input name="SCi001" type="hidden" class="form-control" value="2022412014938726058226">
+    </div>
+    <button type="submit" class="btn btn-success btn-sm">Support</button>
+    </form>
+        </div>
+
+<!--
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="SCi002" type="hidden" class="form-control" value="2022412014938726058226">
+    </div>
+    <button type="submit" class="btn btn-danger btn-sm">Not Support</button>
+    </form>
+        </div>
+-->
+        <div class="col-2">
+         <form action="pr_ppViewMessagesForTopic.php" method="POST">
+    <div class="form-group">
+    <input name="MVi001" type="hidden" class="form-control" value="2022412014938726058226">
+    </div>
+
+    <div class="form-group">
+    <input name="MVi002" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"> Contributions</button>
+      </form>
+        </div>
+   
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="2022412014938726058226">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share FB</button>
+    </form>
+        </div> 
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="2022412014938726058226">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share TW</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="2022412014938726058226">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share PT</button>
+    </form>
+        </div>  
+
+
+      </div>
+      </div>
+    </p>
+    </div>
+  <!--####################################################################-->
+  <!--################ END POST                        ###################-->
+  <!--####################################################################-->
+    
+  <!--####################################################################-->
+  <!--################POSTID:2022412015131210878782 ###################-->
+  <!--####################################################################-->
+  <div class="alert alert-primary" role="alert">
+  <h4 class="alert-heading">TFD : </h4>
+  <p></p>
+  <hr>
+  <p class="mb-0">
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> </span>
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> 2022412015131210878782</span>
+    <span class="badge bg-light text-dark"> 2022-04-12 | 01:51:31 pm</span>
+    </p>
+    <hr>
+    
+    <p class="mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+        <form action="./pr_ppAddMessageTopicDiscussion.php" method="POST">
+    <div class="form-group">
+    <input name="Vi001" type="hidden" class="form-control" value="2022412015131210878782">
+    </div>
+    <div class="form-group">
+    <input name="Vi002" type="hidden" class="form-control" value="Choose...">
+    </div>
+    <div class="form-group">
+    <input name="Vi003" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-warning btn-sm">Voice</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">    
+    <div class="form-group">
+    <input name="SCi001" type="hidden" class="form-control" value="2022412015131210878782">
+    </div>
+    <button type="submit" class="btn btn-success btn-sm">Support</button>
+    </form>
+        </div>
+
+<!--
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="SCi002" type="hidden" class="form-control" value="2022412015131210878782">
+    </div>
+    <button type="submit" class="btn btn-danger btn-sm">Not Support</button>
+    </form>
+        </div>
+-->
+        <div class="col-2">
+         <form action="pr_ppViewMessagesForTopic.php" method="POST">
+    <div class="form-group">
+    <input name="MVi001" type="hidden" class="form-control" value="2022412015131210878782">
+    </div>
+
+    <div class="form-group">
+    <input name="MVi002" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"> Contributions</button>
+      </form>
+        </div>
+   
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="2022412015131210878782">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share FB</button>
+    </form>
+        </div> 
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="2022412015131210878782">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share TW</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="2022412015131210878782">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share PT</button>
+    </form>
+        </div>  
+
+
+      </div>
+      </div>
+    </p>
+    </div>
+  <!--####################################################################-->
+  <!--################ END POST                        ###################-->
+  <!--####################################################################-->
+    
+  <!--####################################################################-->
+  <!--################POSTID:20224120153401229518533 ###################-->
+  <!--####################################################################-->
+  <div class="alert alert-primary" role="alert">
+  <h4 class="alert-heading">TFD : </h4>
+  <p></p>
+  <hr>
+  <p class="mb-0">
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> </span>
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> 20224120153401229518533</span>
+    <span class="badge bg-light text-dark"> 2022-04-12 | 01:53:40 pm</span>
+    </p>
+    <hr>
+    
+    <p class="mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+        <form action="./pr_ppAddMessageTopicDiscussion.php" method="POST">
+    <div class="form-group">
+    <input name="Vi001" type="hidden" class="form-control" value="20224120153401229518533">
+    </div>
+    <div class="form-group">
+    <input name="Vi002" type="hidden" class="form-control" value="Choose...">
+    </div>
+    <div class="form-group">
+    <input name="Vi003" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-warning btn-sm">Voice</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">    
+    <div class="form-group">
+    <input name="SCi001" type="hidden" class="form-control" value="20224120153401229518533">
+    </div>
+    <button type="submit" class="btn btn-success btn-sm">Support</button>
+    </form>
+        </div>
+
+<!--
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="SCi002" type="hidden" class="form-control" value="20224120153401229518533">
+    </div>
+    <button type="submit" class="btn btn-danger btn-sm">Not Support</button>
+    </form>
+        </div>
+-->
+        <div class="col-2">
+         <form action="pr_ppViewMessagesForTopic.php" method="POST">
+    <div class="form-group">
+    <input name="MVi001" type="hidden" class="form-control" value="20224120153401229518533">
+    </div>
+
+    <div class="form-group">
+    <input name="MVi002" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"> Contributions</button>
+      </form>
+        </div>
+   
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120153401229518533">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share FB</button>
+    </form>
+        </div> 
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120153401229518533">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share TW</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120153401229518533">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share PT</button>
+    </form>
+        </div>  
+
+
+      </div>
+      </div>
+    </p>
+    </div>
+  <!--####################################################################-->
+  <!--################ END POST                        ###################-->
+  <!--####################################################################-->
+    
+  <!--####################################################################-->
+  <!--################POSTID:20224120227261185955036 ###################-->
+  <!--####################################################################-->
+  <div class="alert alert-primary" role="alert">
+  <h4 class="alert-heading">TFD : </h4>
+  <p></p>
+  <hr>
+  <p class="mb-0">
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> </span>
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> 20224120227261185955036</span>
+    <span class="badge bg-light text-dark"> 2022-04-12 | 02:27:26 pm</span>
+    </p>
+    <hr>
+    
+    <p class="mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+        <form action="./pr_ppAddMessageTopicDiscussion.php" method="POST">
+    <div class="form-group">
+    <input name="Vi001" type="hidden" class="form-control" value="20224120227261185955036">
+    </div>
+    <div class="form-group">
+    <input name="Vi002" type="hidden" class="form-control" value="Choose...">
+    </div>
+    <div class="form-group">
+    <input name="Vi003" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-warning btn-sm">Voice</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">    
+    <div class="form-group">
+    <input name="SCi001" type="hidden" class="form-control" value="20224120227261185955036">
+    </div>
+    <button type="submit" class="btn btn-success btn-sm">Support</button>
+    </form>
+        </div>
+
+<!--
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="SCi002" type="hidden" class="form-control" value="20224120227261185955036">
+    </div>
+    <button type="submit" class="btn btn-danger btn-sm">Not Support</button>
+    </form>
+        </div>
+-->
+        <div class="col-2">
+         <form action="pr_ppViewMessagesForTopic.php" method="POST">
+    <div class="form-group">
+    <input name="MVi001" type="hidden" class="form-control" value="20224120227261185955036">
+    </div>
+
+    <div class="form-group">
+    <input name="MVi002" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"> Contributions</button>
+      </form>
+        </div>
+   
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120227261185955036">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share FB</button>
+    </form>
+        </div> 
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120227261185955036">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share TW</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120227261185955036">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share PT</button>
+    </form>
+        </div>  
+
+
+      </div>
+      </div>
+    </p>
+    </div>
+  <!--####################################################################-->
+  <!--################ END POST                        ###################-->
+  <!--####################################################################-->
+    
+  <!--####################################################################-->
+  <!--################POSTID:20224120310411070963185 ###################-->
+  <!--####################################################################-->
+  <div class="alert alert-primary" role="alert">
+  <h4 class="alert-heading">TFD :  National Support to Provide activities and action plan for Education support during COVID</h4>
+  <p>All Valued Members of the Region , Governments and NOGs.
+
+Given the current pandemic wish to seek your contribution and inputs to the following topic of focus and discussion and what areas of work /Activities/Policies have your respected organizations and governments been working on. 
+
+This is important in terms of the vital work that is to be coordinated across all our member states. 
+
+</p>
+  <hr>
+  <p class="mb-0">
+    <span class="badge bg-light text-dark"> Education</span>
+    <span class="badge bg-light text-dark"> Choose...</span>
+    <span class="badge bg-light text-dark"> PIANGO First Secretary</span>
+    <span class="badge bg-light text-dark"> Fiji</span>
+    <span class="badge bg-light text-dark"> 20224120310411070963185</span>
+    <span class="badge bg-light text-dark"> 2022-04-12 | 03:10:41 pm</span>
+    </p>
+    <hr>
+    
+    <p class="mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+        <form action="./pr_ppAddMessageTopicDiscussion.php" method="POST">
+    <div class="form-group">
+    <input name="Vi001" type="hidden" class="form-control" value="20224120310411070963185">
+    </div>
+    <div class="form-group">
+    <input name="Vi002" type="hidden" class="form-control" value="Education">
+    </div>
+    <div class="form-group">
+    <input name="Vi003" type="hidden" class="form-control" value=" National Support to Provide activities and action plan for Education support during COVID">
+    </div>
+    <button type="submit" class="btn btn-warning btn-sm">Voice</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">    
+    <div class="form-group">
+    <input name="SCi001" type="hidden" class="form-control" value="20224120310411070963185">
+    </div>
+    <button type="submit" class="btn btn-success btn-sm">Support</button>
+    </form>
+        </div>
+
+<!--
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="SCi002" type="hidden" class="form-control" value="20224120310411070963185">
+    </div>
+    <button type="submit" class="btn btn-danger btn-sm">Not Support</button>
+    </form>
+        </div>
+-->
+        <div class="col-2">
+         <form action="pr_ppViewMessagesForTopic.php" method="POST">
+    <div class="form-group">
+    <input name="MVi001" type="hidden" class="form-control" value="20224120310411070963185">
+    </div>
+
+    <div class="form-group">
+    <input name="MVi002" type="hidden" class="form-control" value=" National Support to Provide activities and action plan for Education support during COVID">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"> Contributions</button>
+      </form>
+        </div>
+   
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120310411070963185">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share FB</button>
+    </form>
+        </div> 
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120310411070963185">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share TW</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="20224120310411070963185">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share PT</button>
+    </form>
+        </div>  
+
+
+      </div>
+      </div>
+    </p>
+    </div>
+  <!--####################################################################-->
+  <!--################ END POST                        ###################-->
+  <!--####################################################################-->
+    
+  <!--####################################################################-->
+  <!--################POSTID:2022412041805191923732 ###################-->
+  <!--####################################################################-->
+  <div class="alert alert-primary" role="alert">
+  <h4 class="alert-heading">TFD : </h4>
+  <p></p>
+  <hr>
+  <p class="mb-0">
+    <span class="badge bg-light text-dark"> </span>
+    <span class="badge bg-light text-dark"> </span>
+    <span class="badge bg-light text-dark"> </span>
+    <span class="badge bg-light text-dark"> </span>
+    <span class="badge bg-light text-dark"> 2022412041805191923732</span>
+    <span class="badge bg-light text-dark"> 2022-04-12 | 04:18:05 pm</span>
+    </p>
+    <hr>
+    
+    <p class="mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+        <form action="./pr_ppAddMessageTopicDiscussion.php" method="POST">
+    <div class="form-group">
+    <input name="Vi001" type="hidden" class="form-control" value="2022412041805191923732">
+    </div>
+    <div class="form-group">
+    <input name="Vi002" type="hidden" class="form-control" value="">
+    </div>
+    <div class="form-group">
+    <input name="Vi003" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-warning btn-sm">Voice</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">    
+    <div class="form-group">
+    <input name="SCi001" type="hidden" class="form-control" value="2022412041805191923732">
+    </div>
+    <button type="submit" class="btn btn-success btn-sm">Support</button>
+    </form>
+        </div>
+
+<!--
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="SCi002" type="hidden" class="form-control" value="2022412041805191923732">
+    </div>
+    <button type="submit" class="btn btn-danger btn-sm">Not Support</button>
+    </form>
+        </div>
+-->
+        <div class="col-2">
+         <form action="pr_ppViewMessagesForTopic.php" method="POST">
+    <div class="form-group">
+    <input name="MVi001" type="hidden" class="form-control" value="2022412041805191923732">
+    </div>
+
+    <div class="form-group">
+    <input name="MVi002" type="hidden" class="form-control" value="">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm"> Contributions</button>
+      </form>
+        </div>
+   
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="2022412041805191923732">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share FB</button>
+    </form>
+        </div> 
+
+        <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="2022412041805191923732">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share TW</button>
+    </form>
+        </div>
+
+         <div class="col-2">
+         <form action="" method="POST">
+    <div class="form-group">
+    <input name="#####" type="hidden" class="form-control" value="2022412041805191923732">
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Share PT</button>
+    </form>
+        </div>  
+
+
+      </div>
+      </div>
+    </p>
+    </div>
+  <!--####################################################################-->
+  <!--################ END POST                        ###################-->
+  <!--####################################################################-->
+    
