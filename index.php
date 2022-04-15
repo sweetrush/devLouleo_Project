@@ -13,7 +13,7 @@ layout_2_8_2('','<p>This is the Project page for Louleo a platform which seeks t
 
         // button(4,"Add Topic of Discussion",'./ppAddTopicDiscussion.php');
         // button(4,"View Topic of Discussion",'./ppViewTopicofDiscussion.php');
-;;;
+;;;;
 
 spaceRow();
 
