@@ -25,9 +25,13 @@ layout_2_8_2('','<a href="./ppViewTopicofDiscussion.php" class="btn btn-success 
 layout_1_10_1('','<hr/>','');
 
 $UserActive = getloginUser();
-//echo 'Active User: '.$UserActive.'S-ID: '.$_SESSION['ID'];
 
-if (0 == 0){
+// Debuging information
+//////////////////////////////////////
+////echo 'Active User: '.$UserActive.'S-ID: '.$_SESSION['ID_Account'];
+//////////////////////////////////////////////////////////////////////////
+
+if ($UserActive == 2){
   layout_1_10_1('','<h4>Your are Active with the </h4>
                     <h5>'.$_SESSION['LoggedAccount'].'</h5>
 

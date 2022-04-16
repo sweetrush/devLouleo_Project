@@ -33,7 +33,12 @@ spaceRow();
 layout_1_10_1('','<hr/>','');
 
 
-layout_2_8_2('','<a href="./pr_ppViewTopicofDiscussion.php" class="btn btn-danger btn-sm active" role="button" aria-pressed="true"> View Topic of Discussion (Private)</a><a href="./pr_ppAddTopicDiscussion.php" class="btn btn-danger btn-sm active" role="button" aria-pressed="true"> Add Topic of Discussion (Private)</a><hr/>','');
+layout_2_8_2('','
+
+  <a href="./pr_ppViewTopicofDiscussion.php" class="btn btn-danger btn-sm active" role="button" aria-pressed="true"> View Topic of Discussion (Private)</a>
+
+  <a href="./pr_ppAddTopicDiscussion.php" class="btn btn-danger btn-sm active" role="button" aria-pressed="true"> Add Topic of Discussion (Private)</a>
+  <hr/>','');
 
 
 
@@ -58,7 +63,7 @@ function ShowIfNonRegistered()
 // $prUsername_var = $_POST['prUsername'];
 // $sultString = rand();
 $md5genString = md5($_POST['prEmail_or_Username'].''.$_POST['prPassword'].'');
-$_SESSION['ID'] = $md5genString;
+$_SESSION['ID_Account'] = $md5genString;
 
 // DEGUBING Perpose Only
 //echo '<p><strong>1: </strong> '.$_POST['prEmail_or_Username'].'<strong>2:  </strong> '.$_POST['prPassword'].' <strong>MD5:</strong> |'.$md5genString.' |.</p>';
@@ -67,17 +72,18 @@ $_SESSION['ID'] = $md5genString;
 //DEMO ACCOUNT LOGIN - EMAIL: is piangoAdmin@louleo.sfll.ws PASS:piangoAdmin@piango@2022 
 
 
-if ($_SESSION['ID'] == 'd3ff9062aa45100bfad3c5772900b36e' ) {
+if($_SESSION['ID_Account'] == '16ac1277f15711ca33921f875e6d5e4e' ) {
   showPrivateContentMenu();
   $_SESSION['LoggedAccount'] = $_POST['prEmail_or_Username'];
 
-}if($_SESSION['ID'] == '8532524a2fff8d66d5ca0b0eb997e258'){
+}else if($_SESSION['ID_Account'] == '00726c361e9c6d387143da4b480cb427'){
   showPrivateContentMenu();
   $_SESSION['LoggedAccount'] = $_POST['prEmail_or_Username'];
 
 }else{
  ShowIfNonRegistered(); 
 }
+
 
 
 
