@@ -48,7 +48,7 @@ function ShowIfNonRegistered()
                   Please check again and try again.<ul>
                   <li>Email Might be Wrong - Check email again</li>
                   <li>Password Might be Wrong - Check email again</li>
-                  <li>Invalid Accout - Contact PIANGO if this account is valid</li>
+                  <li>Invalid Account - Contact PIANGO if this account is valid</li>
 
                   </ul></p>',''); 
 }
@@ -63,6 +63,7 @@ $md5genString = md5($_POST['prEmail_or_Username'].''.$_POST['prPassword'].'');
 //echo '<p><strong>1: </strong> '.$_POST['prEmail_or_Username'].'<strong>2:  </strong> '.$_POST['prPassword'].' <strong>MD5:</strong> |'.$md5genString.' |.</p>';
 
 //DEMO ACCOUNT LOGIN - EMAIL: is samoa@louleo.sfll.ws PASS:samoa@piango@2022 
+//DEMO ACCOUNT LOGIN - EMAIL: is piangoAdmin@louleo.sfll.ws PASS:piangoAdmin@piango@2022 
 
 
 if ($md5genString == 'd3ff9062aa45100bfad3c5772900b36e' ) {
