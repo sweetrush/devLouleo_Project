@@ -7,7 +7,7 @@ include './aaHelperLib.php';
 
 // For the Header and Navigation 
 include './aaHeader.php';
-include './aaNavigations.php';
+include './aa_prNavigations.php';
 
 //Main Content Areas
 page_header('[Private Section] Provide New Topic of Discussion as : '.$_SESSION['LoggedAccount'].'');
@@ -81,6 +81,16 @@ echo '</select>
 <div class="form-group">
   <label for="TopicDiscription" class="form-label">Topic Discription and Remarks</label>
   <textarea name="iTFD_item0006" class="form-control" id="TopicDiscription_Text" rows="8"></textarea>
+  <script>
+    tinymce.init({
+      selector: \'textarea\',
+      plugins: \'a11ychecker advcode casechange export formatpainter image editimage linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tableofcontents tinycomments tinymcespellchecker\',
+      toolbar: \'a11ycheck addcomment showcomments casechange checklist code export formatpainter image editimage pageembed permanentpen table tableofcontents\',
+      toolbar_mode: \'floating\',
+      tinycomments_mode: \'embedded\',
+      tinycomments_author: \'Author name\',
+    });
+  </script>
 </div>
 
  <button type="submit" class="btn btn-success"><i class="fa fa-pencil" aria-hidden="true"></i> Submit for Discussion</button>

@@ -6,7 +6,7 @@ include './aaHelperLib';
 
 // Header and Navigation
 include './aaHeader.php';
-include './aaNavigations.php';
+include './aa_prNavigations.php';
 
 
 $topicID  = $_POST['MVi001'];

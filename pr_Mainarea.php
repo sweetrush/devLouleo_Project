@@ -3,7 +3,7 @@ session_start();
 include './aaLayoutDefs.php';
 
 include './aaHeader.php';
-include './aaNavigations.php';
+include './aa_prNavigations.php';
 
 
 
