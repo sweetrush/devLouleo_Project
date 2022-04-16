@@ -76,7 +76,7 @@ echo '</select>
 
 
 
- <button type="submit" class="btn btn-success">Submit for Discussion</button>
+ <button type="submit" class="btn btn-success"><i class="fa fa-pencil" aria-hidden="true"></i> Submit for Discussion</button>
 
 </form>
 </div>

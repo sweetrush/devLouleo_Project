@@ -1,4 +1,6 @@
 <?php 
+session_start();
+
 // For HelperLibs and DesignLibs
 include './aaLayoutDefs.php';
 include './aaHelperLib.php';
@@ -8,7 +10,7 @@ include './aaHeader.php';
 include './aaNavigations.php';
 
 //Main Content Areas
-page_header('[Private Section] Provide New Topic of Discussion');
+page_header('[Private Section] Provide New Topic of Discussion as : '.$_SESSION['LoggedAccount'].'');
 echo '
 <div class="container">
   		<div class="row">
@@ -41,7 +43,7 @@ echo '</select>
 
   <div class="form-group">
     <label for="formGroupExampleInput2">Reference Name</label>
-    <input name="iTFD_item0004" type="text" class="form-control" id="referName" placeholder="Your Name / Your Organization Name">
+    <input name="iTFD_item0004" type="text" class="form-control" id="referName" placeholder="Your Name / Your Organization Name" value="'.$_SESSION['LoggedAccount'].'">
   </div>
 
   <div class="form-group">
@@ -81,7 +83,7 @@ echo '</select>
   <textarea name="iTFD_item0006" class="form-control" id="TopicDiscription_Text" rows="8"></textarea>
 </div>
 
- <button type="submit" class="btn btn-success">Submit for Discussion</button>
+ <button type="submit" class="btn btn-success"><i class="fa fa-pencil" aria-hidden="true"></i> Submit for Discussion</button>
 
 </form>
 </div>

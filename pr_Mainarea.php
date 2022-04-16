@@ -14,7 +14,7 @@ function showPrivateContentMenu()
 {
   
 
-layout_2_8_2('','<h3>You are now Viewing the Private Topics Areas</h3>','');
+layout_2_8_2('','<h3>Welcome <p class="text-success">'.$_POST['prEmail_or_Username'].'</p> You are now Viewing the Private Topics Areas</h3>','');
 layout_2_8_2('','<h4>About</h4>','');
 layout_2_8_2('','<p>This Areas is dedicated to private discussion between the Regional Partners of PIANGO and the Governments of the region to facilitate a areas of dicussion with member states and NGOs and groups of Interest in the areas of Civil Society with in the Pacific Families of Organizations.</p>
 
@@ -58,6 +58,7 @@ function ShowIfNonRegistered()
 // $prUsername_var = $_POST['prUsername'];
 // $sultString = rand();
 $md5genString = md5($_POST['prEmail_or_Username'].''.$_POST['prPassword'].'');
+$_SESSION['ID'] = $md5genString;
 
 // DEGUBING Perpose Only
 //echo '<p><strong>1: </strong> '.$_POST['prEmail_or_Username'].'<strong>2:  </strong> '.$_POST['prPassword'].' <strong>MD5:</strong> |'.$md5genString.' |.</p>';
@@ -66,10 +67,14 @@ $md5genString = md5($_POST['prEmail_or_Username'].''.$_POST['prPassword'].'');
 //DEMO ACCOUNT LOGIN - EMAIL: is piangoAdmin@louleo.sfll.ws PASS:piangoAdmin@piango@2022 
 
 
-if ($md5genString == 'd3ff9062aa45100bfad3c5772900b36e' ) {
+if ($_SESSION['ID'] == 'd3ff9062aa45100bfad3c5772900b36e' ) {
   showPrivateContentMenu();
-}if($md5genString == '00726c361e9c6d387143da4b480cb427'){
+  $_SESSION['LoggedAccount'] = $_POST['prEmail_or_Username'];
+
+}if($_SESSION['ID'] == '00726c361e9c6d387143da4b480cb427'){
   showPrivateContentMenu();
+  $_SESSION['LoggedAccount'] = $_POST['prEmail_or_Username'];
+
 }else{
  ShowIfNonRegistered(); 
 }

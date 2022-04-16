@@ -65,7 +65,7 @@ layout_1_10_1('','<!-- Pills navs -->
       </div>
 
       <!-- Submit button -->
-      <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+      <button type="submit" class="btn btn-success btn-block mb-4">Sign in</button>
 
       <!-- Register buttons -->
       <div class="text-center">
