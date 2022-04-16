@@ -16,5 +16,11 @@ echo '<!DOCTYPE html>
 
 		  <script src="https://cdn.tiny.cloud/1/lqnh3ndfkgba807z2vz879lfedwlmnjbym5qhi2mmpu5u0rn/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 
+		  <script type="text/javascript">
+$(document).ready(function() {
+    $(\'dropdown-toggle\').dropdown()
+});
+</script>
+
 		</head>
 		<body>';

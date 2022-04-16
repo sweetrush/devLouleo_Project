@@ -30,10 +30,22 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-success">
         <a class="nav-link" href="./aaViewMapStats.php"><i class="fa fa-map" aria-hidden="true"></i> Regional Map</a>
       </li>
 
-      
-
+      <!--Drop Down  Menu for the Help Feature -->
+      <div class="dropdown">
+  <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Help
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Using Louleo</a>
+    <a class="dropdown-item" href="#">Adding a Topic </a>
+    <a class="dropdown-item" href="#">Adding a Message </a>
+  </div>
+</div>
     </ul>
   </div>
+  <!--End of Drop down-->
+
+  
 </nav>';
 
 // Added this to create a nav Dropdown List.
