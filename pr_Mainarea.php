@@ -1,9 +1,18 @@
 <?php
-
+session_start();
 include './aaLayoutDefs.php';
 
 include './aaHeader.php';
 include './aaNavigations.php';
+
+
+
+
+
+// Content to Show if User is a valid User account 
+function showPrivateContentMenu()
+{
+  
 
 layout_2_8_2('','<h3>You are now Viewing the Private Topics Areas</h3>','');
 layout_2_8_2('','<h4>About</h4>','');
@@ -29,6 +38,44 @@ layout_2_8_2('','<a href="./pr_ppViewTopicofDiscussion.php" class="btn btn-dange
 
 
 // layout_2_8_2(' ',button(4,"Add Topic of Discussion",'./ppAddTopicDiscussion.php').' '.button(4,"View Topic of Discussion",'./ppViewTopicofDiscussion.php'),' ');
+
+}
+
+function ShowIfNonRegistered()
+{
+  layout_2_8_2('','<h3>Sorry we can not Log you in</h3>
+                  <p>You seem to have a problem with your passowrd or email, 
+                  Please check again and try again.<ul>
+                  <li>Email Might be Wrong - Check email again</li>
+                  <li>Password Might be Wrong - Check email again</li>
+                  <li>Invalid Accout - Contact PIANGO if this account is valid</li>
+
+                  </ul></p>',''); 
+}
+
+// Getting Login forms information 
+///////////////////////////////////////////////////////////////////
+// $prUsername_var = $_POST['prUsername'];
+// $sultString = rand();
+$md5genString = md5($_POST['prEmail_or_Username'].''.$_POST['prPassword'].'');
+
+// DEGUBING Perpose Only
+//echo '<p><strong>1: </strong> '.$_POST['prEmail_or_Username'].'<strong>2:  </strong> '.$_POST['prPassword'].' <strong>MD5:</strong> |'.$md5genString.' |.</p>';
+
+//DEMO ACCOUNT LOGIN - EMAIL: is samoa@louleo.sfll.ws PASS:samoa@piango@2022 
+
+
+if ($md5genString == 'd3ff9062aa45100bfad3c5772900b36e' ) {
+  showPrivateContentMenu();
+}if($md5genString == '00726c361e9c6d387143da4b480cb427'){
+  showPrivateContentMenu();
+}else{
+ ShowIfNonRegistered(); 
+}
+
+
+
+
 
 
 // Footer Areas 
