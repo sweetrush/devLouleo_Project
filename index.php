@@ -1,13 +1,16 @@
 <?php
 
 include './aaLayoutDefs.php';
+include './aaFX_Libs.php';
 
 include './aaHeader.php';
 include './aaNavigations.php';
 
+
 layout_2_8_2('','<h3>Welcome to Louleo</h3>','');
 layout_2_8_2('','<h4>About</h4>','');
 layout_2_8_2('','<p>This is the Project page for Louleo a platform which seeks to develop a collaborative support platform that will assist civil society in the region. </p><img src="./imgs/File_000.jpeg" class="rounded max-auto " alt="louleo Image">','');
+
 
 // layout_2_8_2('','','');
 
@@ -20,6 +23,21 @@ layout_2_8_2('','<a href="./ppViewTopicofDiscussion.php" class="btn btn-success 
 
   <a href="./ppAddTopicDiscussion.php" class="btn btn-success btn-sm active" role="button" aria-pressed="true"><i class="fa fa-pencil" aria-hidden="true"></i> Topic of Discussion (Public)</a>','');
 layout_1_10_1('','<hr/>','');
+
+$UserActive = getloginUser();
+//echo 'Active User: '.$UserActive.'S-ID: '.$_SESSION['ID'];
+
+if (0 == 0){
+  layout_1_10_1('','<h4>Your are Active with the </h4>
+                    <h5>'.$_SESSION['LoggedAccount'].'</h5>
+
+                    <a href="./pr_ppViewTopicofDiscussion.php" class="btn btn-danger btn-sm active" role="button" aria-pressed="true"><i class="fa fa-eye" aria-hidden="true"></i> Topic of Discussion (Public) </a>
+
+  <a href="./pr_ppAddTopicDiscussion.php" class="btn btn-danger btn-sm active" role="button" aria-pressed="true"><i class="fa fa-pencil" aria-hidden="true"></i> Topic of Discussion (Public)</a>
+
+  <a href="./aaKillSession.php" class="btn btn-primary btn-sm active" role="button" aria-pressed="true"> Logout </a><hr/>','');
+
+}else{
 
 layout_1_10_1('','<h3>Login in to Collaborate on Private Topics</h3>
         <p>The private Topics areas is for Regional Governments and PIANGO Members to provide inputs and facilitate Discussions on Topics of Importance for the region.</p>','');
@@ -81,6 +99,8 @@ layout_1_10_1('','<!-- Pills navs -->
 
 <!-- Pills content -->','');
 
+}
+
 
 //layout_2_8_2('','<a href="#" class="btn btn-danger btn-sm active" role="button" aria-pressed="true"> View Topic of Discussion (Private)</a><a href="#" class="btn btn-danger btn-sm active" role="button" aria-pressed="true"> Add Topic of Discussion (Private)</a>','');
 
@@ -92,6 +112,9 @@ layout_1_10_1('','<!-- Pills navs -->
 
 // Footer Areas 
 include './aaFooter.php';
+
+include './aaHelperLib';
+
 
 
 // DISABLE CODE 
