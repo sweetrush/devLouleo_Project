@@ -110,9 +110,12 @@ fclose($NameOfFile);
 }
 
 
+
 function genDisplay(){
 
 	echo 'I can see this';
 	return 0;
 }
 
+
+;

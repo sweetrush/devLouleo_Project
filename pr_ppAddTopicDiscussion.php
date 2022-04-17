@@ -1,14 +1,16 @@
 <?php 
+session_start();
+
 // For HelperLibs and DesignLibs
 include './aaLayoutDefs.php';
 include './aaHelperLib.php';
 
 // For the Header and Navigation 
 include './aaHeader.php';
-include './aaNavigations.php';
+include './aa_prNavigations.php';
 
 //Main Content Areas
-page_header('[Private Section] Provide New Topic of Discussion');
+page_header('[Private Section] Provide New Topic of Discussion as : '.$_SESSION['LoggedAccount'].'');
 echo '
 <div class="container">
   		<div class="row">
@@ -41,7 +43,7 @@ echo '</select>
 
   <div class="form-group">
     <label for="formGroupExampleInput2">Reference Name</label>
-    <input name="iTFD_item0004" type="text" class="form-control" id="referName" placeholder="Your Name / Your Organization Name">
+    <input name="iTFD_item0004" type="text" class="form-control" id="referName" placeholder="Your Name / Your Organization Name" value="'.$_SESSION['LoggedAccount'].'">
   </div>
 
   <div class="form-group">
@@ -79,9 +81,19 @@ echo '</select>
 <div class="form-group">
   <label for="TopicDiscription" class="form-label">Topic Discription and Remarks</label>
   <textarea name="iTFD_item0006" class="form-control" id="TopicDiscription_Text" rows="8"></textarea>
+  <script>
+    tinymce.init({
+      selector: \'textarea\',
+      plugins: \'a11ychecker advcode casechange export formatpainter image editimage linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tableofcontents tinycomments tinymcespellchecker\',
+      toolbar: \'a11ycheck addcomment showcomments casechange checklist code export formatpainter image editimage pageembed permanentpen table tableofcontents\',
+      toolbar_mode: \'floating\',
+      tinycomments_mode: \'embedded\',
+      tinycomments_author: \'Author name\',
+    });
+  </script>
 </div>
 
- <button type="submit" class="btn btn-success">Submit for Discussion</button>
+ <button type="submit" class="btn btn-success"><i class="fa fa-pencil" aria-hidden="true"></i> Submit for Discussion</button>
 
 </form>
 </div>

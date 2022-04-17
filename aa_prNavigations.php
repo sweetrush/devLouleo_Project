@@ -1,6 +1,4 @@
 <?php
-
-
 echo '<nav class="navbar navbar-expand-lg navbar-dark bg-success">
   <a class="navbar-brand" href="./">
    <img src="./imgs/File_000.jpeg" alt="" width="30" height="24" class="rounded-circle d-inline-block align-text-top"> Louleo </a>
@@ -19,7 +17,12 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-success">
       <li class="nav-item">
         <a class="nav-link" href="./ppAddTopicDiscussion.php"> <i class="fa fa-pencil" aria-hidden="true"></i> Public Topics</a>
       </li>
-      
+      <li class="nav-item">
+        <a class="nav-link" href="./pr_ppViewTopicofDiscussion.php"><i class="fa fa-eye" aria-hidden="true"></i> Private Topics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pr_ppAddTopicDiscussion.php"><i class="fa fa-pencil" aria-hidden="true"></i> Private Topics</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="./aaViewMapStats.php"><i class="fa fa-map" aria-hidden="true"></i> Regional Map</a>
       </li>
@@ -41,17 +44,3 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-success">
 
   
 </nav>';
-
-// Added this to create a nav Dropdown List.
-/////////////////////////////////////////////////
-/* <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-*/

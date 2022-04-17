@@ -1,11 +1,20 @@
 <?php
-
+session_start();
 include './aaLayoutDefs.php';
 
 include './aaHeader.php';
-include './aaNavigations.php';
+include './aa_prNavigations.php';
 
-layout_2_8_2('','<h3>You are now Viewing the Private Topics Areas</h3>','');
+
+
+
+
+// Content to Show if User is a valid User account 
+function showPrivateContentMenu()
+{
+  
+
+layout_2_8_2('','<h3>Welcome <p class="text-success">'.$_POST['prEmail_or_Username'].'</p> You are now Viewing the Private Topics Areas</h3>','');
 layout_2_8_2('','<h4>About</h4>','');
 layout_2_8_2('','<p>This Areas is dedicated to private discussion between the Regional Partners of PIANGO and the Governments of the region to facilitate a areas of dicussion with member states and NGOs and groups of Interest in the areas of Civil Society with in the Pacific Families of Organizations.</p>
 
@@ -24,11 +33,61 @@ spaceRow();
 layout_1_10_1('','<hr/>','');
 
 
-layout_2_8_2('','<a href="./pr_ppViewTopicofDiscussion.php" class="btn btn-danger btn-sm active" role="button" aria-pressed="true"> View Topic of Discussion (Private)</a><a href="./pr_ppAddTopicDiscussion.php" class="btn btn-danger btn-sm active" role="button" aria-pressed="true"> Add Topic of Discussion (Private)</a><hr/>','');
+layout_2_8_2('','
+
+  <a href="./pr_ppViewTopicofDiscussion.php" class="btn btn-danger btn-sm active" role="button" aria-pressed="true"> View Topic of Discussion (Private)</a>
+
+  <a href="./pr_ppAddTopicDiscussion.php" class="btn btn-danger btn-sm active" role="button" aria-pressed="true"> Add Topic of Discussion (Private)</a>
+  <hr/>','');
 
 
 
 // layout_2_8_2(' ',button(4,"Add Topic of Discussion",'./ppAddTopicDiscussion.php').' '.button(4,"View Topic of Discussion",'./ppViewTopicofDiscussion.php'),' ');
+
+}
+
+function ShowIfNonRegistered()
+{
+  layout_2_8_2('','<h3>Sorry we can not Log you in</h3>
+                  <p>You seem to have a problem with your passowrd or email, 
+                  Please check again and try again.<ul>
+                  <li>Email Might be Wrong - Check email again</li>
+                  <li>Password Might be Wrong - Check email again</li>
+                  <li>Invalid Account - Contact PIANGO if this account is valid</li>
+
+                  </ul></p>',''); 
+}
+
+// Getting Login forms information 
+///////////////////////////////////////////////////////////////////
+// $prUsername_var = $_POST['prUsername'];
+// $sultString = rand();
+$md5genString = md5($_POST['prEmail_or_Username'].''.$_POST['prPassword'].'');
+$_SESSION['ID_Account'] = $md5genString;
+
+// DEGUBING Perpose Only
+//echo '<p><strong>1: </strong> '.$_POST['prEmail_or_Username'].'<strong>2:  </strong> '.$_POST['prPassword'].' <strong>MD5:</strong> |'.$md5genString.' |.</p>';
+
+//DEMO ACCOUNT LOGIN - EMAIL: is samoa@louleo.sfll.ws PASS:samoa@piango@2022 
+//DEMO ACCOUNT LOGIN - EMAIL: is piangoAdmin@louleo.sfll.ws PASS:piangoAdmin@piango@2022 
+
+
+if($_SESSION['ID_Account'] == '16ac1277f15711ca33921f875e6d5e4e' ) {
+  showPrivateContentMenu();
+  $_SESSION['LoggedAccount'] = $_POST['prEmail_or_Username'];
+
+}else if($_SESSION['ID_Account'] == '00726c361e9c6d387143da4b480cb427'){
+  showPrivateContentMenu();
+  $_SESSION['LoggedAccount'] = $_POST['prEmail_or_Username'];
+
+}else{
+ ShowIfNonRegistered(); 
+}
+
+
+
+
+
 
 
 // Footer Areas 

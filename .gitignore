@@ -1,3 +1,5 @@
 
-*.messages
 sftp-config.json
+*.messages
+*.nnss
+*.ss
